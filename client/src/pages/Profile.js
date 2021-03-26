@@ -52,17 +52,16 @@ const Profile = (props) => {
         <h1>
           {userData.user?.firstName} {userData.user?.lastName}
         </h1>
-        <h2>About me.</h2>
+        <h2>About</h2>
         <FileUpload/>
         {/* <img src="./Images/Profile1.png" /> */}
         <div>Singer/Pianist/Music Producer</div>
         <hr></hr>
-        <div>Contacts</div>
+        <div>Contact Me</div>
         <i className="fas fa-phone" />
         <i className="fab fa-map-market-alt" />
         <i className="fab fa-soundcloud" />
         <i className="fab fa-youtube" />
-        <i className="fab fa-soundcloud" />
         <i className="fab fa-itunes-note" />
         <i className="fab fa-spotify" />
       </div>
@@ -76,7 +75,7 @@ const Profile = (props) => {
       <div className="allPost">
         {events.map((item, index) => (
           <div className="allPostGrid" key={index}>
-            <h2> {item.title} </h2>
+            <h3> {item.title} </h3>
             <FontAwesomeIcon /> <i className="fas fa-guitar" />
             <p>
               {item.datetime_tbd

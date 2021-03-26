@@ -116,15 +116,17 @@
 
 
 .aboutMe {
-  background-color:#4C5450 ;
+  background-color: #747560;
   float: left;
-  height: 88vh;
-  grid-area: menu;
-  
+  height: 58vh;
+  grid-column: 1;
+  border-radius: 12px;
 }
+
+
 .postContainer {
   background-attachment: fixed;
-  background-image: url('../Images/Back2.jpeg');
+  background-image: url('../Images/elliott-lowe-fQQBArliXGE-unsplash.jpg');
   grid-area: main;
   position: flex;
   color:grey;
@@ -142,7 +144,7 @@
   grid-area: footer;
   border: 3px solid whitesmoke;
   color: azure;
-  width: 96%;
+  width: 100%;
   border: 3px solid #c3c3c3;
   display: flex;
   flex-flow: row-reverse wrap;
